@@ -1,0 +1,469 @@
+2025-02-22 20:02:56.258573: Clientes obtenidos correctamente
+2025-02-22 20:02:56.260088: Productos obtenidos correctamente
+2025-02-22 20:02:56.336326: Productos obtenidos correctamente
+2025-02-22 20:02:56.347727: Reporte de ventas obtenido correctamente
+2025-02-22 20:02:56.352675: Clientes obtenidos correctamente
+2025-02-22 20:02:56.370284: Productos obtenidos correctamente
+2025-02-22 20:02:56.378757: Reporte de ventas obtenido correctamente
+2025-02-22 20:02:56.384012: Clientes obtenidos correctamente
+2025-03-06 08:22:07.754250: Clientes obtenidos correctamente
+2025-03-06 08:22:07.755721: Productos obtenidos correctamente
+2025-03-06 08:22:07.832619: Productos obtenidos correctamente
+2025-03-06 08:22:07.845692: Reporte de ventas obtenido correctamente
+2025-03-06 08:22:07.851029: Clientes obtenidos correctamente
+2025-03-06 08:22:07.869861: Productos obtenidos correctamente
+2025-03-06 08:22:07.878186: Reporte de ventas obtenido correctamente
+2025-03-06 08:22:07.883701: Clientes obtenidos correctamente
+2025-03-06 08:23:16.805173: Clientes obtenidos correctamente
+2025-03-06 08:23:16.806792: Productos obtenidos correctamente
+2025-03-06 08:23:16.886844: Productos obtenidos correctamente
+2025-03-06 08:23:16.898374: Reporte de ventas obtenido correctamente
+2025-03-06 08:23:16.903158: Clientes obtenidos correctamente
+2025-03-06 08:23:16.920976: Productos obtenidos correctamente
+2025-03-06 08:23:16.929693: Reporte de ventas obtenido correctamente
+2025-03-06 08:23:16.935330: Clientes obtenidos correctamente
+2025-03-06 08:33:50.123562: Clientes obtenidos correctamente
+2025-03-06 08:33:50.125382: Productos obtenidos correctamente
+2025-03-06 08:33:50.198619: Productos obtenidos correctamente
+2025-03-06 08:45:02.087025: Clientes obtenidos correctamente
+2025-03-06 08:45:02.088711: Productos obtenidos correctamente
+2025-03-06 08:45:02.156336: Productos obtenidos correctamente
+2025-03-06 08:45:02.168806: Productos obtenidos correctamente
+2025-03-06 08:45:02.169248: Clientes obtenidos correctamente
+2025-03-06 08:45:27.740609: Clientes obtenidos correctamente
+2025-03-06 08:45:27.741977: Productos obtenidos correctamente
+2025-03-06 08:45:27.803387: Productos obtenidos correctamente
+2025-03-06 08:45:27.815605: Productos obtenidos correctamente
+2025-03-06 08:45:27.816155: Clientes obtenidos correctamente
+2025-03-06 09:02:56.156542: Clientes obtenidos correctamente
+2025-03-06 09:02:56.158186: Productos obtenidos correctamente
+2025-03-06 09:02:56.228680: Productos obtenidos correctamente
+2025-03-06 09:02:56.239939: Productos obtenidos correctamente
+2025-03-06 09:02:56.240419: Clientes obtenidos correctamente
+2025-03-06 09:02:56.240967: Reporte de ventas obtenido correctamente
+2025-03-06 09:02:56.245772: Clientes obtenidos correctamente
+2025-03-06 09:02:56.264045: Productos obtenidos correctamente
+2025-03-06 09:03:16.947455: Clientes obtenidos correctamente
+2025-03-06 09:03:16.949010: Productos obtenidos correctamente
+2025-03-06 09:03:17.012934: Productos obtenidos correctamente
+2025-03-06 09:03:17.025609: Productos obtenidos correctamente
+2025-03-06 09:03:17.025996: Clientes obtenidos correctamente
+2025-03-06 09:03:17.026409: Reporte de ventas obtenido correctamente
+2025-03-06 09:03:17.031685: Clientes obtenidos correctamente
+2025-03-06 09:03:17.050655: Productos obtenidos correctamente
+2025-03-06 09:35:33.483559: Clientes obtenidos correctamente
+2025-03-06 09:35:33.484746: Productos obtenidos correctamente
+2025-03-06 09:35:33.548998: Productos obtenidos correctamente
+2025-03-06 09:35:33.560741: Productos obtenidos correctamente
+2025-03-06 09:35:33.561100: Clientes obtenidos correctamente
+2025-03-06 09:35:33.561645: Reporte de ventas obtenido correctamente
+2025-03-06 09:35:33.582524: Clientes obtenidos correctamente
+2025-03-06 09:35:33.600614: Productos obtenidos correctamente
+2025-03-06 09:42:16.638630: Clientes obtenidos correctamente
+2025-03-06 09:42:16.639844: Productos obtenidos correctamente
+2025-03-06 09:42:16.705381: Productos obtenidos correctamente
+2025-03-06 09:42:16.716785: Productos obtenidos correctamente
+2025-03-06 09:42:16.717180: Clientes obtenidos correctamente
+2025-03-06 09:42:16.717559: Reporte de ventas obtenido correctamente
+2025-03-06 09:42:16.722869: Clientes obtenidos correctamente
+2025-03-06 09:42:16.741481: Productos obtenidos correctamente
+2025-03-06 09:53:26.505763: Productos obtenidos correctamente
+2025-03-06 09:53:26.521782: Productos obtenidos correctamente
+2025-03-06 09:53:26.523434: Clientes obtenidos correctamente
+2025-03-06 09:53:26.545356: Reporte de ventas obtenido correctamente
+2025-03-06 09:53:26.552558: Clientes obtenidos correctamente
+2025-03-06 09:53:26.577078: Productos obtenidos correctamente
+2025-03-06 09:53:26.584250: Productos obtenidos correctamente
+2025-03-06 09:53:26.585237: Clientes obtenidos correctamente
+2025-03-06 09:53:26.585976: Reporte de ventas obtenido correctamente
+2025-03-06 09:53:26.591223: Clientes obtenidos correctamente
+2025-03-06 09:54:56.108497: Clientes obtenidos correctamente
+2025-03-06 09:55:04.268863: Productos obtenidos correctamente
+2025-03-06 09:55:04.920822: Reporte de ventas obtenido correctamente
+2025-03-06 09:55:05.802169: Clientes obtenidos correctamente
+2025-03-06 09:55:06.380893: Productos obtenidos correctamente
+2025-03-06 09:55:06.829602: Reporte de ventas obtenido correctamente
+2025-03-06 09:55:07.421899: Productos obtenidos correctamente
+2025-03-06 09:55:07.928888: Reporte de ventas obtenido correctamente
+2025-03-06 09:55:08.354592: Clientes obtenidos correctamente
+2025-03-06 09:55:09.034444: Productos obtenidos correctamente
+2025-03-06 09:55:09.405561: Reporte de ventas obtenido correctamente
+2025-03-06 10:19:36.780905: Productos obtenidos correctamente
+2025-03-06 10:19:36.793737: Productos obtenidos correctamente
+2025-03-06 10:19:36.794696: Clientes obtenidos correctamente
+2025-03-06 10:19:36.795740: Reporte de ventas obtenido correctamente
+2025-03-06 10:19:36.800600: Clientes obtenidos correctamente
+2025-03-06 10:19:36.816652: Productos obtenidos correctamente
+2025-03-06 10:19:36.822908: Productos obtenidos correctamente
+2025-03-06 10:19:36.823873: Clientes obtenidos correctamente
+2025-03-06 10:19:36.824883: Reporte de ventas obtenido correctamente
+2025-03-06 10:19:36.829970: Clientes obtenidos correctamente
+2025-03-06 10:19:49.052467: Productos obtenidos correctamente
+2025-03-06 10:19:56.541200: Productos obtenidos correctamente
+2025-03-06 10:19:56.553849: Productos obtenidos correctamente
+2025-03-06 10:19:56.554859: Clientes obtenidos correctamente
+2025-03-06 10:19:56.555694: Reporte de ventas obtenido correctamente
+2025-03-06 10:19:56.560259: Clientes obtenidos correctamente
+2025-03-06 10:19:56.575648: Productos obtenidos correctamente
+2025-03-06 10:19:56.581920: Productos obtenidos correctamente
+2025-03-06 10:19:56.582829: Clientes obtenidos correctamente
+2025-03-06 10:19:56.583735: Reporte de ventas obtenido correctamente
+2025-03-06 10:19:56.588917: Clientes obtenidos correctamente
+2025-03-06 10:20:09.316244: Productos obtenidos correctamente
+2025-03-06 10:22:44.541824: Productos obtenidos correctamente
+2025-03-06 10:22:44.554772: Productos obtenidos correctamente
+2025-03-06 10:22:44.555764: Clientes obtenidos correctamente
+2025-03-06 10:22:44.556623: Reporte de ventas obtenido correctamente
+2025-03-06 10:22:44.561006: Clientes obtenidos correctamente
+2025-03-06 10:22:44.576587: Productos obtenidos correctamente
+2025-03-06 10:22:44.582979: Productos obtenidos correctamente
+2025-03-06 10:22:44.583899: Clientes obtenidos correctamente
+2025-03-06 10:22:44.584812: Reporte de ventas obtenido correctamente
+2025-03-06 10:22:44.590236: Clientes obtenidos correctamente
+2025-03-06 10:22:57.419674: Productos obtenidos correctamente
+2025-03-06 10:30:14.370975: Productos obtenidos correctamente
+2025-03-06 10:30:14.384530: Productos obtenidos correctamente
+2025-03-06 10:30:14.385402: Clientes obtenidos correctamente
+2025-03-06 10:30:14.386623: Reporte de ventas obtenido correctamente
+2025-03-06 10:30:14.391518: Clientes obtenidos correctamente
+2025-03-06 10:30:14.407765: Productos obtenidos correctamente
+2025-03-06 10:30:14.414098: Productos obtenidos correctamente
+2025-03-06 10:30:14.417187: Clientes obtenidos correctamente
+2025-03-06 10:30:14.418092: Reporte de ventas obtenido correctamente
+2025-03-06 10:30:14.423447: Clientes obtenidos correctamente
+2025-03-06 10:30:34.500299: Productos obtenidos correctamente
+2025-03-06 10:30:38.609378: Reporte de ventas obtenido correctamente
+2025-03-06 10:34:06.979523: Productos obtenidos correctamente
+2025-03-06 10:34:06.993072: Productos obtenidos correctamente
+2025-03-06 10:34:06.994263: Clientes obtenidos correctamente
+2025-03-06 10:34:06.995652: Reporte de ventas obtenido correctamente
+2025-03-06 10:34:07.000517: Clientes obtenidos correctamente
+2025-03-06 10:34:07.017631: Productos obtenidos correctamente
+2025-03-06 10:34:07.023944: Productos obtenidos correctamente
+2025-03-06 10:34:07.026412: Clientes obtenidos correctamente
+2025-03-06 10:34:07.027264: Reporte de ventas obtenido correctamente
+2025-03-06 10:34:07.033084: Clientes obtenidos correctamente
+2025-03-06 10:34:19.025676: Reporte de ventas obtenido correctamente
+2025-03-06 10:49:42.625193: Productos obtenidos correctamente
+2025-03-06 10:49:42.636116: Productos obtenidos correctamente
+2025-03-06 10:49:42.637653: Clientes obtenidos correctamente
+2025-03-06 10:49:42.638670: Reporte de ventas obtenido correctamente
+2025-03-06 10:49:42.642940: Clientes obtenidos correctamente
+2025-03-06 10:49:42.658356: Productos obtenidos correctamente
+2025-03-06 10:49:42.665817: Productos obtenidos correctamente
+2025-03-06 10:49:42.666837: Clientes obtenidos correctamente
+2025-03-06 10:49:42.667706: Reporte de ventas obtenido correctamente
+2025-03-06 10:49:42.672886: Clientes obtenidos correctamente
+2025-03-06 10:50:04.680653: Productos obtenidos correctamente
+2025-03-06 10:50:08.441710: Reporte de ventas obtenido correctamente
+2025-03-06 10:50:29.920840: Productos obtenidos correctamente
+2025-03-06 10:50:29.931505: Productos obtenidos correctamente
+2025-03-06 10:50:29.932633: Clientes obtenidos correctamente
+2025-03-06 10:50:29.933480: Reporte de ventas obtenido correctamente
+2025-03-06 10:50:29.937955: Clientes obtenidos correctamente
+2025-03-06 10:50:29.953280: Productos obtenidos correctamente
+2025-03-06 10:50:29.960839: Productos obtenidos correctamente
+2025-03-06 10:50:29.961731: Clientes obtenidos correctamente
+2025-03-06 10:50:29.962445: Reporte de ventas obtenido correctamente
+2025-03-06 10:50:29.967516: Clientes obtenidos correctamente
+2025-03-06 10:51:26.383764: Productos obtenidos correctamente
+2025-03-06 11:00:22.190405: Productos obtenidos correctamente
+2025-03-06 11:00:22.201524: Productos obtenidos correctamente
+2025-03-06 11:00:22.202773: Clientes obtenidos correctamente
+2025-03-06 11:00:22.203761: Reporte de ventas obtenido correctamente
+2025-03-06 11:00:22.208419: Clientes obtenidos correctamente
+2025-03-06 11:00:22.224175: Productos obtenidos correctamente
+2025-03-06 11:00:22.231846: Productos obtenidos correctamente
+2025-03-06 11:00:22.232772: Clientes obtenidos correctamente
+2025-03-06 11:00:22.233511: Reporte de ventas obtenido correctamente
+2025-03-06 11:00:22.238703: Clientes obtenidos correctamente
+2025-03-06 11:00:36.089591: Productos obtenidos correctamente
+2025-03-06 11:01:25.508385: Productos obtenidos correctamente
+2025-03-06 11:01:25.519629: Productos obtenidos correctamente
+2025-03-06 11:01:25.520987: Clientes obtenidos correctamente
+2025-03-06 11:01:25.522070: Reporte de ventas obtenido correctamente
+2025-03-06 11:01:25.526531: Clientes obtenidos correctamente
+2025-03-06 11:01:25.542445: Productos obtenidos correctamente
+2025-03-06 11:01:25.550243: Productos obtenidos correctamente
+2025-03-06 11:01:25.551212: Clientes obtenidos correctamente
+2025-03-06 11:01:25.551950: Reporte de ventas obtenido correctamente
+2025-03-06 11:01:25.557246: Clientes obtenidos correctamente
+2025-03-06 11:01:33.564225: Reporte de ventas obtenido correctamente
+2025-03-06 11:03:59.724405: Productos obtenidos correctamente
+2025-03-06 11:03:59.735953: Productos obtenidos correctamente
+2025-03-06 11:03:59.737125: Clientes obtenidos correctamente
+2025-03-06 11:03:59.738695: Reporte de ventas obtenido correctamente
+2025-03-06 11:03:59.743328: Clientes obtenidos correctamente
+2025-03-06 11:03:59.759417: Productos obtenidos correctamente
+2025-03-06 11:03:59.767384: Productos obtenidos correctamente
+2025-03-06 11:03:59.768382: Clientes obtenidos correctamente
+2025-03-06 11:03:59.769327: Reporte de ventas obtenido correctamente
+2025-03-06 11:03:59.774778: Clientes obtenidos correctamente
+2025-03-06 11:04:09.138912: Productos obtenidos correctamente
+2025-03-06 11:07:42.590272: Productos obtenidos correctamente
+2025-03-06 11:07:42.601633: Productos obtenidos correctamente
+2025-03-06 11:07:42.603108: Clientes obtenidos correctamente
+2025-03-06 11:07:42.604027: Reporte de ventas obtenido correctamente
+2025-03-06 11:07:42.608438: Clientes obtenidos correctamente
+2025-03-06 11:07:42.624054: Productos obtenidos correctamente
+2025-03-06 11:07:42.631410: Productos obtenidos correctamente
+2025-03-06 11:07:42.632334: Clientes obtenidos correctamente
+2025-03-06 11:07:42.633055: Reporte de ventas obtenido correctamente
+2025-03-06 11:07:42.638210: Clientes obtenidos correctamente
+2025-03-06 11:07:51.669446: Productos obtenidos correctamente
+2025-03-06 11:13:33.003942: Productos obtenidos correctamente
+2025-03-06 11:13:33.014958: Productos obtenidos correctamente
+2025-03-06 11:13:33.016569: Clientes obtenidos correctamente
+2025-03-06 11:13:33.017613: Reporte de ventas obtenido correctamente
+2025-03-06 11:13:33.022206: Clientes obtenidos correctamente
+2025-03-06 11:13:33.039531: Productos obtenidos correctamente
+2025-03-06 11:13:33.048081: Productos obtenidos correctamente
+2025-03-06 11:13:33.049079: Clientes obtenidos correctamente
+2025-03-06 11:13:33.049957: Reporte de ventas obtenido correctamente
+2025-03-06 11:13:33.055871: Clientes obtenidos correctamente
+2025-03-06 11:13:41.793410: Productos obtenidos correctamente
+2025-03-06 11:20:19.490439: Productos obtenidos correctamente
+2025-03-06 11:20:19.501255: Productos obtenidos correctamente
+2025-03-06 11:20:19.502530: Clientes obtenidos correctamente
+2025-03-06 11:20:19.503423: Reporte de ventas obtenido correctamente
+2025-03-06 11:20:19.508150: Clientes obtenidos correctamente
+2025-03-06 11:20:19.524975: Productos obtenidos correctamente
+2025-03-06 11:20:19.533124: Productos obtenidos correctamente
+2025-03-06 11:20:19.534168: Clientes obtenidos correctamente
+2025-03-06 11:20:19.535468: Reporte de ventas obtenido correctamente
+2025-03-06 11:20:19.540561: Clientes obtenidos correctamente
+2025-03-06 11:20:28.498901: Productos obtenidos correctamente
+2025-03-06 11:22:07.275739: Productos obtenidos correctamente
+2025-03-06 11:22:07.287800: Productos obtenidos correctamente
+2025-03-06 11:22:07.288887: Clientes obtenidos correctamente
+2025-03-06 11:22:07.289716: Reporte de ventas obtenido correctamente
+2025-03-06 11:22:07.294860: Clientes obtenidos correctamente
+2025-03-06 11:22:07.311566: Productos obtenidos correctamente
+2025-03-06 11:22:07.320496: Productos obtenidos correctamente
+2025-03-06 11:22:07.322135: Clientes obtenidos correctamente
+2025-03-06 11:22:07.323033: Reporte de ventas obtenido correctamente
+2025-03-06 11:22:07.328665: Clientes obtenidos correctamente
+2025-03-06 11:26:47.387552: Productos obtenidos correctamente
+2025-03-06 11:26:47.399009: Productos obtenidos correctamente
+2025-03-06 11:26:47.400232: Clientes obtenidos correctamente
+2025-03-06 11:26:47.401769: Reporte de ventas obtenido correctamente
+2025-03-06 11:26:47.408437: Clientes obtenidos correctamente
+2025-03-07 12:35:57.184719: Productos obtenidos correctamente
+2025-03-07 12:35:57.213402: Productos obtenidos correctamente
+2025-03-07 12:35:57.214712: Clientes obtenidos correctamente
+2025-03-07 12:35:57.216101: Reporte de ventas obtenido correctamente
+2025-03-07 12:35:57.222275: Clientes obtenidos correctamente
+2025-03-07 12:46:49.281671: Productos obtenidos correctamente
+2025-03-07 12:46:49.297821: Productos obtenidos correctamente
+2025-03-07 12:46:49.298955: Clientes obtenidos correctamente
+2025-03-07 12:46:49.300192: Reporte de ventas obtenido correctamente
+2025-03-07 12:46:49.307036: Clientes obtenidos correctamente
+2025-03-07 12:46:49.323518: Productos obtenidos correctamente
+2025-03-07 12:46:49.331518: Productos obtenidos correctamente
+2025-03-07 12:46:49.332467: Clientes obtenidos correctamente
+2025-03-07 12:46:49.333469: Reporte de ventas obtenido correctamente
+2025-03-07 12:46:49.338819: Clientes obtenidos correctamente
+2025-03-07 12:55:10.176117: Productos obtenidos correctamente
+2025-03-07 12:55:10.190138: Productos obtenidos correctamente
+2025-03-07 12:55:10.191850: Clientes obtenidos correctamente
+2025-03-07 12:55:10.193799: Reporte de ventas obtenido correctamente
+2025-03-07 12:55:10.201544: Clientes obtenidos correctamente
+2025-03-07 12:55:10.219535: Productos obtenidos correctamente
+2025-03-07 12:55:10.226491: Productos obtenidos correctamente
+2025-03-07 12:55:10.227805: Clientes obtenidos correctamente
+2025-03-07 12:55:10.229119: Reporte de ventas obtenido correctamente
+2025-03-07 12:55:10.235846: Clientes obtenidos correctamente
+2025-03-07 12:59:48.387588: Productos obtenidos correctamente
+2025-03-07 12:59:48.399910: Productos obtenidos correctamente
+2025-03-07 12:59:48.400829: Clientes obtenidos correctamente
+2025-03-07 12:59:48.401921: Reporte de ventas obtenido correctamente
+2025-03-07 12:59:48.408272: Clientes obtenidos correctamente
+2025-03-07 12:59:48.424713: Productos obtenidos correctamente
+2025-03-07 12:59:48.431646: Productos obtenidos correctamente
+2025-03-07 12:59:48.432548: Clientes obtenidos correctamente
+2025-03-07 12:59:48.433568: Reporte de ventas obtenido correctamente
+2025-03-07 12:59:48.438950: Clientes obtenidos correctamente
+2025-03-07 13:02:31.508069: Productos obtenidos correctamente
+2025-03-07 13:02:31.520563: Productos obtenidos correctamente
+2025-03-07 13:02:31.521441: Clientes obtenidos correctamente
+2025-03-07 13:02:31.522583: Reporte de ventas obtenido correctamente
+2025-03-07 13:02:31.529069: Clientes obtenidos correctamente
+2025-03-07 13:02:31.548357: Productos obtenidos correctamente
+2025-03-07 13:02:31.554681: Productos obtenidos correctamente
+2025-03-07 13:02:31.555635: Clientes obtenidos correctamente
+2025-03-07 13:02:31.556425: Reporte de ventas obtenido correctamente
+2025-03-07 13:02:31.561967: Clientes obtenidos correctamente
+2025-03-07 13:09:32.443449: Productos obtenidos correctamente
+2025-03-07 13:09:32.457226: Productos obtenidos correctamente
+2025-03-07 13:09:32.459228: Clientes obtenidos correctamente
+2025-03-07 13:09:32.460722: Reporte de ventas obtenido correctamente
+2025-03-07 13:09:32.466225: Clientes obtenidos correctamente
+2025-03-07 13:09:32.486374: Productos obtenidos correctamente
+2025-03-07 13:09:32.492791: Productos obtenidos correctamente
+2025-03-07 13:09:32.494364: Clientes obtenidos correctamente
+2025-03-07 13:09:32.495281: Reporte de ventas obtenido correctamente
+2025-03-07 13:09:32.500687: Clientes obtenidos correctamente
+2025-03-07 13:09:40.541134: Productos obtenidos correctamente
+2025-03-07 13:09:47.425206: Clientes obtenidos correctamente
+2025-03-07 13:44:32.623693: Productos obtenidos correctamente
+2025-03-07 13:44:32.634958: Productos obtenidos correctamente
+2025-03-07 13:44:32.636249: Clientes obtenidos correctamente
+2025-03-07 13:44:32.637525: Reporte de ventas obtenido correctamente
+2025-03-07 13:44:32.642100: Clientes obtenidos correctamente
+2025-03-07 13:44:32.659736: Productos obtenidos correctamente
+2025-03-07 13:44:32.666552: Productos obtenidos correctamente
+2025-03-07 13:44:32.667737: Clientes obtenidos correctamente
+2025-03-07 13:44:32.668572: Reporte de ventas obtenido correctamente
+2025-03-07 13:44:32.675440: Clientes obtenidos correctamente
+2025-03-07 13:44:45.657424: Productos obtenidos correctamente
+2025-03-07 18:25:27.839664: Productos obtenidos correctamente
+2025-03-07 18:25:27.856606: Productos obtenidos correctamente
+2025-03-07 18:25:27.857795: Clientes obtenidos correctamente
+2025-03-07 18:25:27.859335: Reporte de ventas obtenido correctamente
+2025-03-07 18:25:27.865102: Clientes obtenidos correctamente
+2025-03-07 18:31:33.295515: Productos obtenidos correctamente
+2025-03-07 18:31:33.309787: Productos obtenidos correctamente
+2025-03-07 18:31:33.310931: Clientes obtenidos correctamente
+2025-03-07 18:31:33.312381: Reporte de ventas obtenido correctamente
+2025-03-07 18:31:33.318324: Clientes obtenidos correctamente
+2025-03-07 18:34:33.324505: Productos obtenidos correctamente
+2025-03-07 18:34:33.340367: Productos obtenidos correctamente
+2025-03-07 18:34:33.341671: Clientes obtenidos correctamente
+2025-03-07 18:34:33.342765: Reporte de ventas obtenido correctamente
+2025-03-07 18:34:33.347595: Clientes obtenidos correctamente
+2025-03-08 23:37:41.273421: Productos obtenidos correctamente
+2025-03-08 23:37:41.295216: Productos obtenidos correctamente
+2025-03-08 23:37:41.296183: Clientes obtenidos correctamente
+2025-03-08 23:37:41.297645: Reporte de ventas obtenido correctamente
+2025-03-08 23:37:41.305403: Clientes obtenidos correctamente
+2025-03-08 23:37:41.323434: Productos obtenidos correctamente
+2025-03-08 23:37:41.331800: Productos obtenidos correctamente
+2025-03-08 23:37:41.332811: Clientes obtenidos correctamente
+2025-03-08 23:37:41.333649: Reporte de ventas obtenido correctamente
+2025-03-08 23:37:41.338387: Clientes obtenidos correctamente
+2025-03-08 23:37:54.420907: Productos obtenidos correctamente
+2025-03-08 23:43:50.042241: Productos obtenidos correctamente
+2025-03-08 23:43:50.053508: Productos obtenidos correctamente
+2025-03-08 23:43:50.054663: Clientes obtenidos correctamente
+2025-03-08 23:43:50.055719: Reporte de ventas obtenido correctamente
+2025-03-08 23:43:50.062941: Clientes obtenidos correctamente
+2025-03-08 23:43:50.076015: Productos obtenidos correctamente
+2025-03-08 23:43:50.082243: Productos obtenidos correctamente
+2025-03-08 23:43:50.083872: Clientes obtenidos correctamente
+2025-03-08 23:43:50.085008: Reporte de ventas obtenido correctamente
+2025-03-08 23:43:50.091578: Clientes obtenidos correctamente
+2025-03-08 23:43:58.561729: Clientes obtenidos correctamente
+2025-03-08 23:46:17.646437: Reporte de ventas obtenido correctamente
+2025-03-08 23:46:26.987327: Reporte de ventas obtenido correctamente
+2025-03-08 23:46:29.865060: Clientes obtenidos correctamente
+2025-03-08 23:46:36.525156: Productos obtenidos correctamente
+2025-03-08 23:52:44.064842: Productos obtenidos correctamente
+2025-03-08 23:52:44.078140: Productos obtenidos correctamente
+2025-03-08 23:52:44.079656: Clientes obtenidos correctamente
+2025-03-08 23:52:44.080876: Reporte de ventas obtenido correctamente
+2025-03-08 23:52:44.086191: Clientes obtenidos correctamente
+2025-03-08 23:52:44.102633: Productos obtenidos correctamente
+2025-03-08 23:52:44.110492: Productos obtenidos correctamente
+2025-03-08 23:52:44.111302: Clientes obtenidos correctamente
+2025-03-08 23:52:44.112048: Reporte de ventas obtenido correctamente
+2025-03-08 23:52:44.116944: Clientes obtenidos correctamente
+2025-03-08 23:56:35.760370: Productos obtenidos correctamente
+2025-03-08 23:56:35.761362: Clientes obtenidos correctamente
+2025-03-08 23:56:35.777644: Productos obtenidos correctamente
+2025-03-08 23:56:35.778520: Clientes obtenidos correctamente
+2025-03-09 00:00:03.464242: Productos obtenidos correctamente
+2025-03-09 00:00:03.465979: Clientes obtenidos correctamente
+2025-03-09 00:00:03.483292: Productos obtenidos correctamente
+2025-03-09 00:00:03.484642: Clientes obtenidos correctamente
+2025-03-09 00:00:24.342861: Productos obtenidos correctamente
+2025-03-09 00:00:24.343327: Clientes obtenidos correctamente
+2025-03-09 00:00:24.360557: Productos obtenidos correctamente
+2025-03-09 00:00:24.360896: Clientes obtenidos correctamente
+2025-03-09 00:03:29.674544: Productos obtenidos correctamente
+2025-03-09 00:03:29.674946: Clientes obtenidos correctamente
+2025-03-09 00:03:29.694598: Productos obtenidos correctamente
+2025-03-09 00:03:29.694963: Clientes obtenidos correctamente
+2025-03-09 00:04:24.688967: Clientes obtenidos correctamente
+2025-03-09 00:04:26.499227: Clientes obtenidos correctamente
+2025-03-09 00:04:26.925331: Clientes obtenidos correctamente
+2025-03-09 00:04:32.250782: Clientes obtenidos correctamente
+2025-03-09 00:04:32.685635: Clientes obtenidos correctamente
+2025-03-09 00:04:33.199516: Clientes obtenidos correctamente
+2025-03-09 00:04:47.591936: Clientes obtenidos correctamente
+2025-03-09 00:04:48.838717: Clientes obtenidos correctamente
+2025-03-09 00:05:21.355056: Cliente añadido correctamente
+2025-03-09 00:05:24.444040: Clientes obtenidos correctamente
+2025-03-09 00:09:34.235518: Productos obtenidos correctamente
+2025-03-09 00:09:34.236021: Clientes obtenidos correctamente
+2025-03-09 00:13:04.949420: Productos obtenidos correctamente
+2025-03-09 00:13:04.949925: Clientes obtenidos correctamente
+2025-03-09 00:13:04.968510: Productos obtenidos correctamente
+2025-03-09 00:13:04.969009: Clientes obtenidos correctamente
+2025-03-09 00:15:05.421902: Productos obtenidos correctamente
+2025-03-09 00:15:05.422511: Clientes obtenidos correctamente
+2025-03-09 00:15:05.443948: Productos obtenidos correctamente
+2025-03-09 00:15:05.444277: Clientes obtenidos correctamente
+2025-03-09 00:15:35.772708: Clientes obtenidos correctamente
+2025-03-09 00:19:31.944069: Productos obtenidos correctamente
+2025-03-09 00:19:31.944529: Clientes obtenidos correctamente
+2025-03-09 00:19:31.964966: Productos obtenidos correctamente
+2025-03-09 00:19:31.965286: Clientes obtenidos correctamente
+2025-03-09 00:22:22.112241: Productos obtenidos correctamente
+2025-03-09 00:22:22.112622: Clientes obtenidos correctamente
+2025-03-09 00:22:22.133235: Productos obtenidos correctamente
+2025-03-09 00:22:22.133566: Clientes obtenidos correctamente
+2025-03-09 00:22:52.976331: Productos obtenidos correctamente
+2025-03-09 00:22:52.976947: Clientes obtenidos correctamente
+2025-03-09 00:22:52.997632: Productos obtenidos correctamente
+2025-03-09 00:22:52.998006: Clientes obtenidos correctamente
+2025-03-09 16:36:36.569487: Productos obtenidos correctamente
+2025-03-09 16:36:36.569921: Clientes obtenidos correctamente
+2025-03-09 16:36:36.588612: Productos obtenidos correctamente
+2025-03-09 16:36:36.588921: Clientes obtenidos correctamente
+2025-03-09 16:40:55.501430: Productos obtenidos correctamente
+2025-03-09 16:40:55.501889: Clientes obtenidos correctamente
+2025-03-09 16:40:55.522781: Productos obtenidos correctamente
+2025-03-09 16:40:55.523122: Clientes obtenidos correctamente
+2025-03-09 16:42:42.459992: Productos obtenidos correctamente
+2025-03-09 16:42:42.460401: Clientes obtenidos correctamente
+2025-03-09 16:42:42.477159: Productos obtenidos correctamente
+2025-03-09 16:42:42.477474: Clientes obtenidos correctamente
+2025-03-09 16:44:22.450437: Productos obtenidos correctamente
+2025-03-09 16:44:22.450826: Clientes obtenidos correctamente
+2025-03-09 16:44:22.467993: Productos obtenidos correctamente
+2025-03-09 16:44:22.468290: Clientes obtenidos correctamente
+2025-03-09 16:45:56.355533: Productos obtenidos correctamente
+2025-03-09 16:45:56.355986: Clientes obtenidos correctamente
+2025-03-09 16:45:56.373746: Productos obtenidos correctamente
+2025-03-09 16:45:56.374124: Clientes obtenidos correctamente
+2025-03-09 16:47:36.633908: Productos obtenidos correctamente
+2025-03-09 16:47:36.634305: Clientes obtenidos correctamente
+2025-03-09 16:47:36.651924: Productos obtenidos correctamente
+2025-03-09 16:47:36.652229: Clientes obtenidos correctamente
+2025-03-09 16:48:51.222067: Productos obtenidos correctamente
+2025-03-09 16:48:51.222467: Clientes obtenidos correctamente
+2025-03-09 16:48:51.239544: Productos obtenidos correctamente
+2025-03-09 16:48:51.239975: Clientes obtenidos correctamente
+2025-03-09 16:50:21.225582: Productos obtenidos correctamente
+2025-03-09 16:50:21.226081: Clientes obtenidos correctamente
+2025-03-09 16:50:21.245834: Productos obtenidos correctamente
+2025-03-09 16:50:21.246186: Clientes obtenidos correctamente
+2025-03-09 16:53:23.862160: Productos obtenidos correctamente
+2025-03-09 16:53:23.862716: Clientes obtenidos correctamente
+2025-03-09 16:53:23.883439: Productos obtenidos correctamente
+2025-03-09 16:53:23.883792: Clientes obtenidos correctamente
+2025-03-09 16:54:39.796695: Productos obtenidos correctamente
+2025-03-09 16:54:39.797216: Clientes obtenidos correctamente
+2025-03-09 16:54:39.822613: Productos obtenidos correctamente
+2025-03-09 16:54:39.822989: Clientes obtenidos correctamente
+2025-03-09 16:57:50.150577: Productos obtenidos correctamente
+2025-03-09 16:57:50.151275: Clientes obtenidos correctamente
+2025-03-09 16:57:50.172195: Productos obtenidos correctamente
+2025-03-09 16:57:50.172539: Clientes obtenidos correctamente
+2025-03-09 17:00:14.585991: Clientes obtenidos correctamente
+2025-03-09 17:01:03.285900: Producto añadido correctamente
+2025-03-09 17:01:07.572125: Productos obtenidos correctamente
+2025-03-22 18:31:50.926548: Productos obtenidos correctamente
+2025-03-22 18:31:50.938992: Clientes obtenidos correctamente
+2025-03-22 18:31:50.956601: Productos obtenidos correctamente
+2025-03-22 18:31:50.957732: Clientes obtenidos correctamente

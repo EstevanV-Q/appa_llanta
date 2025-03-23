@@ -1,0 +1,662 @@
+#:kivy 2.3.1
+#:import utils kivy.utils
+#:import Window kivy.core.window.Window
+#:import os os.path
+
+# Colores elegantes y modernos
+#:set primary_color (0.18, 0.19, 0.38, 1)  # Azul marino elegante
+#:set secondary_color (0.24, 0.25, 0.44, 1)  # Azul marino más claro
+#:set accent_color (0.85, 0.65, 0.13, 1)  # Dorado elegante
+#:set text_color (0.2, 0.2, 0.2, 1)  # Negro suave
+#:set bg_color (0.98, 0.98, 1, 1)  # Blanco con toque azulado
+#:set shadow_color (0, 0, 0, 0.15)  # Sombra más pronunciada
+
+<ShadowBox@BoxLayout>:
+    canvas.before:
+        Color:
+            rgba: 1, 1, 1, 1
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(15)]
+        Color:
+            rgba: shadow_color
+        RoundedRectangle:
+            pos: self.pos[0] + dp(3), self.pos[1] - dp(3)
+            size: self.size
+            radius: [dp(15)]
+
+<CustomLabel@Label>:
+    color: text_color
+    font_size: '15sp'
+    text_size: self.width, None
+    halign: 'left'
+    valign: 'middle'
+    size_hint_y: None
+    height: self.texture_size[1] + dp(10)
+    padding: dp(5), dp(2)
+    bold: True
+
+<CustomButton@Button>:
+    font_size: '15sp'
+    size_hint_y: None
+    height: dp(45)
+    background_color: primary_color
+    background_normal: ''
+    color: 1, 1, 1, 1
+    bold: True
+    canvas.before:
+        Color:
+            rgba: self.background_color
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [dp(12)]
+        Color:
+            rgba: shadow_color
+        RoundedRectangle:
+            pos: self.pos[0] + dp(2), self.pos[1] - dp(2)
+            size: self.size
+            radius: [dp(12)]
+
+<CustomTextInput@TextInput>:
+    size_hint_y: None
+    height: dp(35)
+    multiline: False
+    padding: [dp(10), dp(5)]
+    background_color: 1, 1, 1, 1
+    foreground_color: text_color
+    cursor_color: primary_color
+    font_size: '14sp'
+    canvas.before:
+        Color:
+            rgba: primary_color
+        Line:
+            rounded_rectangle: [self.x, self.y, self.width, self.height, dp(8)]
+            width: 1
+
+<CustomSpinner@Spinner>:
+    size_hint_y: None
+    height: dp(35)
+    background_color: 1, 1, 1, 1
+    color: text_color
+    font_size: '14sp'
+    bold: True
+    canvas.before:
+        Color:
+            rgba: primary_color
+        Line:
+            rounded_rectangle: [self.x, self.y, self.width, self.height, dp(8)]
+            width: 1
+
+<TitleLabel@Label>:
+    font_size: '28sp'
+    color: primary_color
+    bold: True
+    size_hint_y: None
+    height: dp(60)
+    halign: 'center'
+    valign: 'middle'
+    canvas.before:
+        Color:
+            rgba: accent_color
+        Line:
+            points: [self.x + dp(50), self.y + dp(10), self.right - dp(50), self.y + dp(10)]
+            width: 1
+        Line:
+            points: [self.x + dp(50), self.y + self.height - dp(10), self.right - dp(50), self.y + self.height - dp(10)]
+            width: 1
+
+<ScreenManager>:
+    id: screen_manager
+    LoginScreen:
+    MainScreen:
+    ProductScreen:
+    SalesScreen:
+    CustomersScreen:
+    ReportsScreen:
+    SettingsScreen:
+
+<LoginScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(20)
+        
+        Widget:
+            size_hint_y: 0.2
+            
+        ShadowBox:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: dp(400)
+            padding: dp(30)
+            spacing: dp(20)
+            
+            Label:
+                text: ' Star Studio '
+                font_size: '32sp'
+                bold: True
+                color: primary_color
+                size_hint_y: None
+                height: dp(60)
+
+            Label:
+                text: 'Inventario y Control'
+                font_size: '16sp'
+                color: accent_color
+                size_hint_y: None
+                height: dp(30)
+                bold: True
+            
+            AsyncImage:
+                source: 'logo.png'
+                size_hint: None, None
+                size: dp(150), dp(150)
+                pos_hint: {'center_x': 0.5}
+            
+            Widget:
+                size_hint_y: None
+                height: dp(20)
+                
+            CustomTextInput:
+                id: username
+                hint_text: 'Usuario'
+                
+            CustomTextInput:
+                id: password
+                hint_text: 'Contraseña'
+                password: True
+                
+            Widget:
+                size_hint_y: None
+                height: dp(20)
+                
+            CustomButton:
+                text: 'Iniciar Sesión'
+                on_press: root.verify_login()
+                background_color: accent_color
+                
+        Widget:
+            size_hint_y: 0.15
+
+<MainScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(20)
+        
+        Widget:
+            size_hint_y: 0.15
+            
+        TitleLabel:
+            text: '✦ Star Studio ✦'
+            
+        Label:
+            text: 'Inventario y Control'
+            font_size: '16sp'
+            color: accent_color
+            size_hint_y: None
+            height: dp(30)
+            bold: True
+            
+        Widget:
+            size_hint_y: 0.15
+            
+        ShadowBox:
+            orientation: 'vertical'
+            padding: dp(20)
+            spacing: dp(15)
+            size_hint_y: None
+            height: dp(300)
+            
+            GridLayout:
+                cols: 2
+                spacing: dp(15)
+                padding: dp(10)
+                size_hint_y: None
+                height: self.minimum_height
+                
+                CustomButton:
+                    text: '📦 Productos'
+                    on_press: root.switch_screen('products')
+                    background_color: primary_color
+                    
+                CustomButton:
+                    text: '💰 Ventas'
+                    on_press: root.switch_screen('sales')
+                    background_color: secondary_color
+                    
+                CustomButton:
+                    text: '👥 Clientes'
+                    on_press: root.switch_screen('customers')
+                    background_color: primary_color
+                    
+                CustomButton:
+                    text: '📊 Reportes'
+                    on_press: root.switch_screen('reports')
+                    background_color: secondary_color
+
+        Widget:
+            size_hint_y: 0.2
+            
+        CustomButton:
+            text: 'Cerrar Sesión'
+            background_color: accent_color
+            on_press: root.logout()
+            size_hint_x: 0.5
+            pos_hint: {'center_x': 0.5}
+
+        Widget:
+            size_hint_y: 0.1
+
+<ProductScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(15)
+        
+        Widget:
+            size_hint_y: 0.1
+            
+        TitleLabel:
+            text: '✦ Productos ✦'
+            
+        ShadowBox:
+            orientation: 'vertical'
+            padding: dp(20)
+            spacing: dp(15)
+            
+            ScrollView:
+                GridLayout:
+                    cols: 2
+                    spacing: dp(15)
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(10)
+                    
+                    CustomLabel:
+                        text: 'Nombre:'
+                    CustomTextInput:
+                        id: name
+                        hint_text: 'Nombre del producto'
+                    
+                    CustomLabel:
+                        text: 'Marca:'
+                    CustomTextInput:
+                        id: brand
+                        hint_text: 'Marca'
+                    
+                    CustomLabel:
+                        text: 'Tamaño:'
+                    CustomTextInput:
+                        id: size
+                        hint_text: 'Tamaño'
+                    
+                    CustomLabel:
+                        text: 'Tipo:'
+                    CustomSpinner:
+                        id: type
+                        text: 'Seleccionar tipo'
+                        values: ['Automóvil', 'Camioneta', 'Camión']
+                    
+                    CustomLabel:
+                        text: 'Precio:'
+                    CustomTextInput:
+                        id: price
+                        hint_text: 'Precio'
+                        input_filter: 'float'
+                    
+                    CustomLabel:
+                        text: 'Stock:'
+                    CustomTextInput:
+                        id: stock
+                        hint_text: 'Stock'
+                        input_filter: 'int'
+            
+            Widget:
+                size_hint_y: None
+                height: dp(20)
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(45)
+                spacing: dp(15)
+                
+                CustomButton:
+                    text: 'Guardar'
+                    on_press: root.save_product()
+                    background_color: accent_color
+                    
+                CustomButton:
+                    text: 'Ver'
+                    background_color: secondary_color
+                    on_press: root.generate_report('inventory')
+                    
+                CustomButton:
+                    text: 'Volver'
+                    background_color: primary_color
+                    on_press: root.go_back()
+
+<SalesScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(15)
+        
+        Widget:
+            size_hint_y: 0.15
+            
+        TitleLabel:
+            text: '✦ Ventas ✦'
+            
+        Widget:
+            size_hint_y: 0.1
+            
+        ShadowBox:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: dp(250)
+            padding: dp(20)
+            spacing: dp(15)
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(45)
+                spacing: dp(15)
+                
+                CustomLabel:
+                    text: 'Producto:'
+                    size_hint_x: 0.3
+                CustomSpinner:
+                    id: product_spinner
+                    text: 'Seleccionar Producto'
+                    values: []
+                    size_hint_x: 0.7
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(45)
+                spacing: dp(15)
+                
+                CustomLabel:
+                    text: 'Cantidad:'
+                    size_hint_x: 0.3
+                CustomTextInput:
+                    id: quantity_input
+                    hint_text: 'Ingrese cantidad'
+                    size_hint_x: 0.7
+                    input_filter: 'int'
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(45)
+                spacing: dp(15)
+                
+                CustomLabel:
+                    text: 'Cliente:'
+                    size_hint_x: 0.3
+                CustomSpinner:
+                    id: customer_spinner
+                    text: 'Seleccionar Cliente'
+                    values: []
+                    size_hint_x: 0.7
+        
+        Widget:
+            size_hint_y: 0.2
+            
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y: None
+            height: dp(45)
+            spacing: dp(15)
+            
+            CustomButton:
+                text: 'Registrar'
+                on_press: root.register_sale()
+                background_color: accent_color
+                
+            CustomButton:
+                text: 'Ver'
+                background_color: secondary_color
+                on_press: root.generate_report('sales')
+                
+            CustomButton:
+                text: 'Volver'
+                background_color: primary_color
+                on_press: root.go_back()
+        
+        Widget:
+            size_hint_y: 0.1
+
+<CustomersScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(15)
+        
+        Widget:
+            size_hint_y: 0.1
+            
+        TitleLabel:
+            text: '✦ Clientes ✦'
+            
+        ShadowBox:
+            orientation: 'vertical'
+            padding: dp(20)
+            spacing: dp(15)
+            
+            ScrollView:
+                GridLayout:
+                    cols: 2
+                    spacing: dp(15)
+                    size_hint_y: None
+                    height: self.minimum_height
+                    padding: dp(10)
+                    
+                    CustomLabel:
+                        text: 'Nombre:'
+                    CustomTextInput:
+                        id: name_input
+                        hint_text: 'Nombre completo'
+                    
+                    CustomLabel:
+                        text: 'Teléfono:'
+                    CustomTextInput:
+                        id: phone_input
+                        hint_text: 'XXXX-XXXX'
+                    
+                    CustomLabel:
+                        text: 'Email:'
+                    CustomTextInput:
+                        id: email_input
+                        hint_text: 'ejemplo@email.com'
+                    
+                    CustomLabel:
+                        text: 'Dirección:'
+                    CustomTextInput:
+                        id: address_input
+                        hint_text: 'Dirección completa'
+                        multiline: True
+                        height: dp(80)
+            
+            Widget:
+                size_hint_y: None
+                height: dp(20)
+            
+            BoxLayout:
+                orientation: 'horizontal'
+                size_hint_y: None
+                height: dp(45)
+                spacing: dp(15)
+                
+                CustomButton:
+                    text: 'Añadir'
+                    on_press: root.add_customer()
+                    background_color: accent_color
+                    
+                CustomButton:
+                    text: 'Ver'
+                    background_color: secondary_color
+                    on_press: root.generate_report('customers')
+                    
+                CustomButton:
+                    text: 'Volver'
+                    background_color: primary_color
+                    on_press: root.go_back()
+
+<ReportsScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(15)
+        
+        Widget:
+            size_hint_y: 0.15
+            
+        TitleLabel:
+            text: '✦ Reportes ✦'
+            
+        Widget:
+            size_hint_y: 0.2
+            
+        ShadowBox:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: dp(300)
+            padding: dp(20)
+            spacing: dp(15)
+            
+            CustomButton:
+                text: '📊 Inventario'
+                background_color: secondary_color
+                on_press: root.generate_report('inventory')
+            
+            CustomButton:
+                text: '💰 Ventas'
+                background_color: primary_color
+                on_press: root.generate_report('sales')
+            
+            CustomButton:
+                text: '👥 Clientes'
+                background_color: secondary_color
+                on_press: root.generate_report('customers')
+            
+            CustomButton:
+                text: '📑 Completo'
+                background_color: primary_color
+                on_press: root.generate_report('full')
+            
+            Widget:
+                size_hint_y: None
+                height: dp(15)
+            
+            CustomButton:
+                text: 'Volver'
+                background_color: accent_color
+                on_press: root.go_back()
+        
+        Widget:
+            size_hint_y: 0.2
+
+<SettingsScreen>:
+    BoxLayout:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(15)
+        
+        Widget:
+            size_hint_y: 0.15
+            
+        TitleLabel:
+            text: '✦ Configuración ✦'
+            
+        Widget:
+            size_hint_y: 0.1
+            
+        ShadowBox:
+            orientation: 'vertical'
+            size_hint_y: None
+            height: dp(250)
+            padding: dp(20)
+            spacing: dp(15)
+            
+            GridLayout:
+                cols: 2
+                spacing: dp(15)
+                row_default_height: dp(45)
+                size_hint_y: None
+                height: self.minimum_height
+                
+                CustomLabel:
+                    text: 'Tema:'
+                CustomSpinner:
+                    id: theme_spinner
+                    text: 'Claro'
+                    values: ['Claro', 'Oscuro']
+                    on_text: root.apply_theme(self.text)
+                
+                CustomLabel:
+                    text: 'Idioma:'
+                CustomSpinner:
+                    id: language_spinner
+                    text: 'Español'
+                    values: ['Español', 'English']
+                    on_text: root.apply_language(self.text)
+            
+            Widget:
+                size_hint_y: None
+                height: dp(20)
+            
+            CustomButton:
+                text: 'Guardar Cambios'
+                on_press: root.save_settings()
+                background_color: accent_color
+                size_hint_x: 0.8
+                pos_hint: {'center_x': 0.5}
+        
+        Widget:
+            size_hint_y: 0.2
+            
+        CustomButton:
+            text: 'Volver al Menú Principal'
+            background_color: primary_color
+            on_press: root.go_back()
+            size_hint_x: 0.8
+            pos_hint: {'center_x': 0.5}
+            
+        Widget:
+            size_hint_y: 0.1
+
+<MessagePopup>:
+    ShadowBox:
+        orientation: 'vertical'
+        padding: dp(20)
+        spacing: dp(15)
+        size_hint: None, None
+        size: dp(300), dp(200)
+        pos_hint: {'center_x': .5, 'center_y': .5}
+        
+        Label:
+            id: message_label
+            text: ''
+            color: text_color
+            font_size: '15sp'
+            text_size: self.width - dp(20), None
+            size_hint_y: None
+            height: self.texture_size[1]
+            halign: 'center'
+            valign: 'middle'
+            bold: True
+        
+        CustomButton:
+            text: 'Aceptar'
+            size_hint_x: 0.6
+            pos_hint: {'center_x': 0.5}
+            on_press: root.dismiss()
+            background_color: accent_color
+
